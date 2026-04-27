@@ -1,0 +1,3 @@
+*.sql linguist-detectable=true
+*.sql linguist-language=SQL
+setup_db_script.sh linguist-documentation=true
