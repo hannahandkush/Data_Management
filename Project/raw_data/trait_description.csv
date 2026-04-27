@@ -1,0 +1,35 @@
+﻿trait,description,primary_source
+days_to_anthesis,Number of days from sowing/planting to 50% of plants in the plot showing anthesis (pollen shed).,CROPO_ONT/CIMMYT
+days_to_silking,Number of days from sowing/planting to 50% of plants in the plot showing silking (silks visible).,CROPO_ONT/CIMMYT
+anthesis_silking_interval,Difference in days between anthesis and silking (days_to_anthesis - days_to_silking); indicator of stress (longer ASI often reduces yield).,CIMMYT/RESEARCH
+plant_height,Vertical distance from soil surface to the highest point of the main stem (usually measured in cm).,CIMMYT
+ear_height,Vertical distance from soil surface to the node bearing the primary ear (cm).,CIMMYT
+husk_cover,Visual score or percentage indicating how well the husk covers the ear (degree of exposed kernels; scored on a standard scale).,CIMMYT/IITA
+plant_aspect,Visual overall score of plant vigor/appearance (usually a 1–5 or 1–9 scale where lower = desirable).,CIMMYT/IITA
+field_weight,Fresh weight of the whole plot at harvest (kg) — often used before drying to compute fresh biomass. (term may be dataset-specific).,IITA/CIMMYT
+ear_harvested,Number of ears physically harvested from the sampled plants or plot.,IITA
+ear_per_plant,Average number of ears (or cobs) produced per plant in the sampled area.,IITA/CIMMYT
+ear_aspect,"Visual score of ear quality (shape, filling, grain set) on a standard scale (lower = better).",CIMMYT
+grain_moisture,Percent moisture content of grain at harvest (measured with moisture meter or drying).,CIMMYT
+grain_yield,Dry grain weight per unit area (commonly kg/ha or t/ha) after standard drying to target moisture. ,CIMMYT/IITA
+staygreen,Score (or percent) indicating the degree to which foliage remains green during grain filling/late-season (delayed senescence).,CIMMYT
+canopy_height,Height of the plant canopy (cm) — often measured as mean height of foliage layer. (similar to plant_height but refers to canopy).,CIMMYT
+branches_per_plant,Number of branches arising from the main stem per plant (relevant for branching crops).,IITA
+peduncles_per_plant,Number of peduncles (flower stalks/panicle stalks) produced per plant.,CROP/LITERATURE
+pods_per_plant,Number of pods per plant (for legumes) counted on sampled plants.,IITA/AGRONOMY
+seeds_per_plot,Total number of seeds collected from the sampled plot (useful for seed yield estimates).,IITA
+seed_100_weight,Mass (g) of 100 seeds (100-seed weight) — measured after drying; indicator of seed size. ,CIMMYT
+dry_matter,Mass of plant material after drying to constant weight (kg or % of fresh weight); used to compute biomass. ,CIMMYT
+harvest_index,"Ratio of economic yield (grain) to total above-ground biomass (grain / total dry biomass), usually expressed as fraction or percent.",REVIEW/CIMMYT
+fodder_yield,Dry weight of vegetative biomass suitable for fodder per unit area (kg/ha or t/ha).,IITA
+grains_per_panicle,Number of grains (kernels) per panicle/panicle-equivalent (or ear) counted on sampled panicles. ,CIMMYT
+panicle_width,"Maximum width of the panicle (cm), measured on harvested panicles. ",CIMMYT
+panicle_length,Length of the panicle (cm) from base to tip (harvested).,CIMMYT
+panicle_number,Number of panicles per plot or per plant (depending on protocol).,CIMMYT
+seed_1000_weight,Mass (g) of 1000 seeds (sometimes used instead of 100-seed weight for small-seeded crops).,CIMMYT
+tillers_per_plant,"Number of tillers (secondary stems) per main plant (important in cereals like rice, wheat).",IITA/CIMMYT
+leaf_number,Number of leaves per main stem (counted to a defined growth stage).,CIMMYT
+panicle_harvested,Number of panicles harvested from the sampled plants or plot.,CIMMYT
+leaf_length,"Length of an individual leaf (cm) — protocol specifies which leaf to measure (e.g., topmost fully expanded).",CIMMYT
+leaf_width,Maximum width of an individual leaf (cm) — protocol specifies which leaf to measure. ,CIMMYT
+grain_covering,Degree to which grain is covered by bracts/husk/lemma (visual score or percent); relates to exposure and quality. ,CIMMYT/IITA
